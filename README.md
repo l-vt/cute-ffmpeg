@@ -7,10 +7,10 @@ This module is still lacking a lot of different custom features, and therefore *
 ## Example
 ```Javascript
 // CommonJS
-const CuteFFMPEG = require("cute-ffmpeg").default;
+const CuteFFMPEG = require("cute-ffmpeg").CuteFFMPEG;
 const FFMPEGRequest = require("cute-ffmpeg").FFMPEGRequest;
 // ES6
-import CuteFFMPEG, { FFMPEGRequest } from "cute-ffmpeg";
+import { CuteFFMPEG, FFMPEGRequest } from "cute-ffmpeg";
 
 const ffmpeg = new CuteFFMPEG({
   overwrite: true
