@@ -1,0 +1,27 @@
+{
+  "name": "cute-ffmpeg",
+  "description": "An on-the-nose wrapper for ffmpeg written in Typescript, primarily used for audio conversion.",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": "l-vt/cute-ffmpeg",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --write src/**/*.ts",
+    "test": "tsc && node ./dist/tests/convert.js"
+  },
+  "keywords": [
+    "audio",
+    "ffmpeg",
+    "promise",
+    "convert",
+    "lame"
+  ],
+  "author": "Louis Vogt <https://github.com/l-vt>",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}

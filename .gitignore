@@ -1,0 +1,9 @@
+debug.log
+node_modules
+.vscode
+package-lock.json
+*.tgz
+_testing
+yarn.lock
+bin/*.ts
+tests/output
