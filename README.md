@@ -7,8 +7,8 @@ This module is still lacking a lot of different custom features, and therefore *
 ## Example
 ```Javascript
 // CommonJS
-const CuteFFMPEG = require("../dist").default;
-const FFMPEGRequest = require("../dist").FFMPEGRequest;
+const CuteFFMPEG = require("cute-ffmpeg").default;
+const FFMPEGRequest = require("cute-ffmpeg").FFMPEGRequest;
 // ES6
 import CuteFFMPEG, { FFMPEGRequest } from "cute-ffmpeg";
 
