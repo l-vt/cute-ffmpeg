@@ -5,4 +5,5 @@ package-lock.json
 *.tgz
 yarn.lock
 bin/*.ts
-tests/output/*.
+tests/*.mp3
+tests/*.wav
