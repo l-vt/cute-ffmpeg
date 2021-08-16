@@ -21,7 +21,7 @@ class CuteFFMPEG {
     /**
      * Converts an input file into an output file
      * @param request Request data
-     * @returns
+     * @returns Filepath
      */
     convert(request) {
         return new Promise((resolve, reject) => {

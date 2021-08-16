@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "l-vt/cute-ffmpeg",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "lint": "prettier --write src/**/*.ts",
     "test": "tsc && node ./dist/tests/convert.js"
   },
