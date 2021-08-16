@@ -47,6 +47,7 @@ ffmpeg.convert(request)
 | Property     | Type             | Description                               | FFMPEG   |
 |--------------|------------------|-------------------------------------------|----------|
 | path         | string           | Path to file                              |          |
+| codec        | string           | Force audio codec ([Full list](https://www.ffmpeg.org/ffmpeg-codecs.html#Audio-Encoders)) | -c:a    |
 | bitrate      | number           | Bitrate for audio; adds "k" automatically | -b:a     |
 | volume       | number           | Volume (default is 256)                   | -vol     |
 | audioQuality | string \| number | Codec-specific audio quality setting      | -q:a     |
