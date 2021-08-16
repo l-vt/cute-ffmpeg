@@ -1,7 +1,7 @@
 {
   "name": "cute-ffmpeg",
   "description": "An on-the-nose wrapper for ffmpeg written in Typescript, primarily used for audio conversion.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
   "repository": "l-vt/cute-ffmpeg",
