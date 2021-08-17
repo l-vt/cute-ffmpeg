@@ -1,4 +1,4 @@
-const CuteFFMPEG = require("../dist").default;
+const CuteFFMPEG = require("../dist").CuteFFMPEG;
 const FFMPEGRequest = require("../dist").FFMPEGRequest;
 
 const ffmpeg = new CuteFFMPEG({
@@ -30,6 +30,13 @@ const dir = name => "./tests/output/" + name;
   req.outputOptions = {
     path: dir("output_16k.mp3"),
     bitrate: 16
+  };
+
+  await ffmpeg.convert(req);
+  
+  req.outputOptions = {
+    path: dir("output_lowvol.mp3"),
+    volume: 25
   };
 
   await ffmpeg.convert(req);
