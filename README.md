@@ -43,7 +43,7 @@ ffmpeg.convert(request)
 | overwrite  | boolean | Overwrite output file                              | -y |   |
 | ffmpegPath | string  | Define path to ffmpeg (default uses PATH variable) |              |
 
-### FFMPEGGlobalOptions
+### FFMPEGMediaOptions
 | Property     | Type             | Description                               | FFMPEG   |
 |--------------|------------------|-------------------------------------------|----------|
 | path         | string           | Path to file                              |          |
